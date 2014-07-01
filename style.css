@@ -3,3 +3,8 @@ width: 100px;
 height: 100px;
 border: 2px solid red;
 }
+
+body{
+  background-image: url('/TorgersenBridge.jpg');
+  background-repeat: none;
+}
