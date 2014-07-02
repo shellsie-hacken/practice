@@ -12,12 +12,11 @@ border: 2px solid red;
 
   display: block;
   background-image: url('https://c1.staticflickr.com/3/2777/4473616177_00fa271ae2_z.jpg');
-  width: 1200px;
-  height: 800px;
-
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
+  background-size: 100%;
+  
+  -webkit-filter: blur(25px);
+  -moz-filter: blur(25px);
+  -o-filter: blur(25px);
+  -ms-filter: blur(25px);
+  filter: blur(25px);
 }
