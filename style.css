@@ -4,19 +4,30 @@ height: 100px;
 border: 2px solid red;
 }
 
-.background-image {
+
+.blur:before {
+  content : "";
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 1;
-
-  display: block;
+  z-index: -1;
+  
+  display: block; 
   background-image: url('https://c1.staticflickr.com/3/2777/4473616177_00fa271ae2_z.jpg');
   background-size: 100%;
   
-  -webkit-filter: blur(25px);
+    -webkit-filter: blur(25px);
   -moz-filter: blur(25px);
   -o-filter: blur(25px);
   -ms-filter: blur(25px);
   filter: blur(25px);
+}
+
+.blur {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
